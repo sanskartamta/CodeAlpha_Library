@@ -1,0 +1,58 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* src/components/BookList.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+.line {
+  border-bottom: 0.1em solid #0b115c;
+  width: 80%;
+  margin: 0 auto 20px auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 60px;
+}
+
+li {
+  color: #2c3e50;
+  padding: 0.5em 0;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+li:hover {
+  color: #e74c3c;
+  transform: scale(1.05);
+}
+
+li:last-child {
+  border-bottom: none;
+}
